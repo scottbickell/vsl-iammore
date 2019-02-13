@@ -1,0 +1,164 @@
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content-block {
+    padding: 50px;
+}
+
+.content-block h3 {
+    text-transform: none;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.content-card {
+    background: #ffffff;
+    box-shadow: 2px 2px 5px 1px #e5e5e5;
+    margin: 2px 2px 5px 2px;
+}
+
+.content-block p.large-copy {
+    font-size: 2em;
+    line-height: 1.3;
+    font-weight: 300;
+}
+
+.content-card-copy {
+    padding: 20px;
+    height: 220px;
+}
+
+.content-card-copy p {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.content-card-copy .button-container {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+.btn-full-width {
+    display: block;
+    background: #fff;
+    border: #4298cc solid 1px;
+    padding: 12px 24px;
+    text-align: center;
+    color: #4298cc;
+    text-transform: uppercase;
+}
+
+.btn-250 {
+    display: block;
+    width: 250px;
+    background: #fff;
+    border: #4298cc solid 1px;
+    padding: 12px 24px;
+    text-align: center;
+    color: #4298cc;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.btn-card {
+    display: block;
+    width: 215px;
+    background: #fff;
+    border: #4298cc solid 1px;
+    padding: 12px 24px;
+    text-align: center;
+    color: #4298cc;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-blue {
+    background: #4298cc;
+    text-align: center;
+}
+
+.orangeheader {
+    background: #ef8b2a;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+.orangeheader h2 {
+    margin: 0;
+    color: #ffffff;
+}
+
+.blue-banner h2 {
+    color: #ffffff;
+}
+
+.bg-gray {
+    background: #f5f5f5;
+}
+
+.bg-white {
+    background: #ffffff;
+}
+
+.i-am-more-logo {
+    max-width: 300px;
+}
+
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #424242;
+}
+
+p {
+    margin-bottom: .75em;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0 0 .5em 0;
+}
+
+i.fab {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+
+@media (max-width: 480px) {
+    .content-block {
+        padding: 20px;
+    }
+    .hide-hardbreak {
+        display: none;
+    }
+    .btn-card {
+        width: 100%;
+    }
+    .margin-bottom-40 {
+        margin-bottom: 20px;
+    }
+    .content-card-copy .button-container {
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .content-card-copy {
+        height: auto;
+    }
+}
